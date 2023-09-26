@@ -64,6 +64,7 @@ fun main() {
 
     )
 
+
     for (i in 0..platos.size-1){
         var numIngredientes=platos.values.elementAt(i).size
         println("${platos.keys.elementAt(i)} €")
